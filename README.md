@@ -11,3 +11,13 @@ This file has a custom `MyHashMap` class that supports the following operations:
 | `remove(key)`     | Deletes the key and its value from the map      |
 
 📌 All keys and values are integers.
+
+## 🔒 Constraints
+
+| Constraint                             | Description                                        |
+|----------------------------------------|----------------------------------------------------|
+| Data Type                              | All keys and values are integers                   |
+| Range                                  | `0 <= key, value <= 10^6`                         |
+| Uniqueness                             | Keys are unique within the map                     |
+| Maximum Operations                     | Up to `10^5` operations supported                  |
+| Library Restriction                    | Do **not** use built-in hash maps or dictionaries  |
